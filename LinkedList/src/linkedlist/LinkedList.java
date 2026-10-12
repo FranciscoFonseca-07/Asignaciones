@@ -25,6 +25,13 @@ public class LinkedList {
         System.out.println("Removido del indice 1: " + removido);
         imprimirLista(lista);
         
+        System.out.println("\n probando nuevas funciones de interacion (circular y doble)");
+        lista.irInicio();
+        lista.nextIterador();
+        lista.previous();
+        lista.irFInal();
+        lista.nextIterador();
+        
         System.out.println("\n Probando invetir");
         lista.invertir();
         imprimirLista(lista);
